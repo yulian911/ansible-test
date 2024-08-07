@@ -1,0 +1,14 @@
+all:
+  children:
+    group1:
+      hosts:
+        host1:
+          ansible_host: IP
+        host2:
+          ansible_host: IP
+    group2:
+      hosts:
+        host3:
+          ansible_host: IP
+        host4:
+          ansible_host: IP
