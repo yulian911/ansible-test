@@ -1,0 +1,6 @@
+---  # komentarz | uname dla hostów | ansible-playbook uname.yml
+
+- hosts: all
+  tasks:
+    - name: Get OS Type
+      shell: uname

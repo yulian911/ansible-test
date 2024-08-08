@@ -1,0 +1,7 @@
+---  # komentarz | wykonanie ping na hostach z inventory | ansible-playbook ping.yml
+
+- hosts: all
+  tasks:
+
+  - name: Ping wszystkich hostów.
+    action: ping
